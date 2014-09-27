@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RefreshTableView.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+@property (weak, nonatomic) IBOutlet RefreshTableView *myTable;
+@property (strong, nonatomic)  NSMutableArray *datasource;
 
 @end

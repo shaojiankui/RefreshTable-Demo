@@ -21,6 +21,17 @@
 		1B3D396819D6BD9900154A40 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B3D394A19D6BD9900154A40 /* UIKit.framework */; };
 		1B3D397019D6BD9900154A40 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B3D396E19D6BD9900154A40 /* InfoPlist.strings */; };
 		1B3D397219D6BD9900154A40 /* RefreshTable_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3D397119D6BD9900154A40 /* RefreshTable_DemoTests.m */; };
+		1B3D398B19D6BDFC00154A40 /* blackArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B3D397C19D6BDFC00154A40 /* blackArrow.png */; };
+		1B3D398C19D6BDFC00154A40 /* blackArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B3D397D19D6BDFC00154A40 /* blackArrow@2x.png */; };
+		1B3D398D19D6BDFC00154A40 /* blueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B3D397E19D6BDFC00154A40 /* blueArrow.png */; };
+		1B3D398E19D6BDFC00154A40 /* blueArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B3D397F19D6BDFC00154A40 /* blueArrow@2x.png */; };
+		1B3D398F19D6BDFC00154A40 /* EGORefreshTableFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3D398119D6BDFC00154A40 /* EGORefreshTableFooterView.m */; };
+		1B3D399019D6BDFC00154A40 /* EGORefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3D398319D6BDFC00154A40 /* EGORefreshTableHeaderView.m */; };
+		1B3D399119D6BDFC00154A40 /* grayArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B3D398519D6BDFC00154A40 /* grayArrow.png */; };
+		1B3D399219D6BDFC00154A40 /* grayArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B3D398619D6BDFC00154A40 /* grayArrow@2x.png */; };
+		1B3D399319D6BDFC00154A40 /* whiteArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B3D398719D6BDFC00154A40 /* whiteArrow.png */; };
+		1B3D399419D6BDFC00154A40 /* whiteArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B3D398819D6BDFC00154A40 /* whiteArrow@2x.png */; };
+		1B3D399519D6BDFC00154A40 /* RefreshTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3D398A19D6BDFC00154A40 /* RefreshTableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +64,21 @@
 		1B3D396D19D6BD9900154A40 /* RefreshTable-DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RefreshTable-DemoTests-Info.plist"; sourceTree = "<group>"; };
 		1B3D396F19D6BD9900154A40 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1B3D397119D6BD9900154A40 /* RefreshTable_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RefreshTable_DemoTests.m; sourceTree = "<group>"; };
+		1B3D397C19D6BDFC00154A40 /* blackArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackArrow.png; sourceTree = "<group>"; };
+		1B3D397D19D6BDFC00154A40 /* blackArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackArrow@2x.png"; sourceTree = "<group>"; };
+		1B3D397E19D6BDFC00154A40 /* blueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueArrow.png; sourceTree = "<group>"; };
+		1B3D397F19D6BDFC00154A40 /* blueArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueArrow@2x.png"; sourceTree = "<group>"; };
+		1B3D398019D6BDFC00154A40 /* EGORefreshTableFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGORefreshTableFooterView.h; sourceTree = "<group>"; };
+		1B3D398119D6BDFC00154A40 /* EGORefreshTableFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGORefreshTableFooterView.m; sourceTree = "<group>"; };
+		1B3D398219D6BDFC00154A40 /* EGORefreshTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGORefreshTableHeaderView.h; sourceTree = "<group>"; };
+		1B3D398319D6BDFC00154A40 /* EGORefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGORefreshTableHeaderView.m; sourceTree = "<group>"; };
+		1B3D398419D6BDFC00154A40 /* EGOViewCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOViewCommon.h; sourceTree = "<group>"; };
+		1B3D398519D6BDFC00154A40 /* grayArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grayArrow.png; sourceTree = "<group>"; };
+		1B3D398619D6BDFC00154A40 /* grayArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grayArrow@2x.png"; sourceTree = "<group>"; };
+		1B3D398719D6BDFC00154A40 /* whiteArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteArrow.png; sourceTree = "<group>"; };
+		1B3D398819D6BDFC00154A40 /* whiteArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whiteArrow@2x.png"; sourceTree = "<group>"; };
+		1B3D398919D6BDFC00154A40 /* RefreshTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshTableView.h; sourceTree = "<group>"; };
+		1B3D398A19D6BDFC00154A40 /* RefreshTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshTableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +143,9 @@
 				1B3D395819D6BD9900154A40 /* Main.storyboard */,
 				1B3D395B19D6BD9900154A40 /* ViewController.h */,
 				1B3D395C19D6BD9900154A40 /* ViewController.m */,
+				1B3D397B19D6BDFC00154A40 /* EGORefresh */,
+				1B3D398919D6BDFC00154A40 /* RefreshTableView.h */,
+				1B3D398A19D6BDFC00154A40 /* RefreshTableView.m */,
 				1B3D395E19D6BD9900154A40 /* Images.xcassets */,
 				1B3D394D19D6BD9900154A40 /* Supporting Files */,
 			);
@@ -150,6 +179,26 @@
 				1B3D396E19D6BD9900154A40 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1B3D397B19D6BDFC00154A40 /* EGORefresh */ = {
+			isa = PBXGroup;
+			children = (
+				1B3D397C19D6BDFC00154A40 /* blackArrow.png */,
+				1B3D397D19D6BDFC00154A40 /* blackArrow@2x.png */,
+				1B3D397E19D6BDFC00154A40 /* blueArrow.png */,
+				1B3D397F19D6BDFC00154A40 /* blueArrow@2x.png */,
+				1B3D398019D6BDFC00154A40 /* EGORefreshTableFooterView.h */,
+				1B3D398119D6BDFC00154A40 /* EGORefreshTableFooterView.m */,
+				1B3D398219D6BDFC00154A40 /* EGORefreshTableHeaderView.h */,
+				1B3D398319D6BDFC00154A40 /* EGORefreshTableHeaderView.m */,
+				1B3D398419D6BDFC00154A40 /* EGOViewCommon.h */,
+				1B3D398519D6BDFC00154A40 /* grayArrow.png */,
+				1B3D398619D6BDFC00154A40 /* grayArrow@2x.png */,
+				1B3D398719D6BDFC00154A40 /* whiteArrow.png */,
+				1B3D398819D6BDFC00154A40 /* whiteArrow@2x.png */,
+			);
+			path = EGORefresh;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,7 +278,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B3D395F19D6BD9900154A40 /* Images.xcassets in Resources */,
+				1B3D398B19D6BDFC00154A40 /* blackArrow.png in Resources */,
 				1B3D395119D6BD9900154A40 /* InfoPlist.strings in Resources */,
+				1B3D399419D6BDFC00154A40 /* whiteArrow@2x.png in Resources */,
+				1B3D399219D6BDFC00154A40 /* grayArrow@2x.png in Resources */,
+				1B3D398E19D6BDFC00154A40 /* blueArrow@2x.png in Resources */,
+				1B3D398D19D6BDFC00154A40 /* blueArrow.png in Resources */,
+				1B3D398C19D6BDFC00154A40 /* blackArrow@2x.png in Resources */,
+				1B3D399319D6BDFC00154A40 /* whiteArrow.png in Resources */,
+				1B3D399119D6BDFC00154A40 /* grayArrow.png in Resources */,
 				1B3D395A19D6BD9900154A40 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +308,9 @@
 			files = (
 				1B3D395D19D6BD9900154A40 /* ViewController.m in Sources */,
 				1B3D395719D6BD9900154A40 /* AppDelegate.m in Sources */,
+				1B3D399019D6BDFC00154A40 /* EGORefreshTableHeaderView.m in Sources */,
+				1B3D399519D6BDFC00154A40 /* RefreshTableView.m in Sources */,
+				1B3D398F19D6BDFC00154A40 /* EGORefreshTableFooterView.m in Sources */,
 				1B3D395319D6BD9900154A40 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
